@@ -1,13 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  font-family: 'Inter Tight', sans-serif;
+  background: #e2e2e2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.calculatorBox {
+  background-color: #2d2d30;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: -5px 11px 30px 22px rgba(0,0,0,0.1);
 }
+
+
+.resultDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  font-size: 2rem;
+  color: white;
+}
+.resultDisplay div p {
+  margin: 0.5rem 0;
+}
+
+.ANS{
+  font-size: 2.2rem;
+}
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:0.5rem;
+}
+
+.button {
+  color: white;
+  background: #626464;
+  height: 4rem;
+  border-radius: 15px;
+  border: none;
+  font-size: 2rem;
+}
+
+.zero {
+  grid-column-start:1;
+  grid-column-end: 3;
+}
+
+.button:active {
+  background: #a2a2a2;
+}
+
+.operations {
+  background: #fd9f2b ;
+}
+
+.operations:active {
+  color: #fd9f2b ;
+  background: white;
+}
+
+.operations-pressed{
+  color: #fd9f2b ;
+  background: white;
+}
+
+.operations-pressed:active{
+  color: white;
+  background: #fd9f2b;
+}
+
+.toggleButtons {
+  background: #444546;
+}
+
+.toggleButtons:active {
+  background: #626464;
+}
+
+
