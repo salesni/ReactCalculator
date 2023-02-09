@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Application Description
 
-This application was developed for the React Basis Course of the FrontEnd Meta certification. Its purpose is to demonstrate a simple of example of the use of react basic tools to create a minimalist calculator: 
+This application was developed for the React Basics Course of the FrontEnd Meta certification. Its purpose is to demonstrate a simple of example of the use of react basic tools to create a minimalist calculator: 
 
 ![Calculator Preview](./public/screenshots/index.png)
 ## Available Scripts
